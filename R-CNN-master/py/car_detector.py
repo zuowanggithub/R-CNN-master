@@ -94,7 +94,7 @@ def nms(rect_list, score_list):
         nms_rects.append(rect_array[0])
         nms_scores.append(score_array[0])
         rect_array = rect_array[1:]
-        score_array = score_array[1:]
+        score_array = score_array[1:]   #  xxxx
 
         length = len(score_array)
         if length <= 0:
