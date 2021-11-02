@@ -97,6 +97,7 @@ def nms(rect_list, score_list):
         score_array = score_array[1:]   #  xxxx
         #  hello
         #  hello2
+        #  hello1
         length = len(score_array)
         if length <= 0:
             break
