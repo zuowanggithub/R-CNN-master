@@ -95,7 +95,7 @@ def nms(rect_list, score_list):
         nms_scores.append(score_array[0])
         rect_array = rect_array[1:]
         score_array = score_array[1:]   #  xxxx
-
+        #  hello
         length = len(score_array)
         if length <= 0:
             break
